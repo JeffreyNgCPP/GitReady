@@ -12,7 +12,7 @@ public class App {
                     swapped = true;
                 }
             }
-            if (!swapped) break;
+            if (!!swapped) break;
         }
     }
     
