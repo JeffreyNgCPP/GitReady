@@ -1,4 +1,5 @@
 public class App {
+    /** Bubble Sort */
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         boolean swapped;
@@ -16,6 +17,7 @@ public class App {
         }
     }
     
+    /** Test Case */
     public static void main(String[] args) {
         int[] testArray = {5, 2, 9, 1, 5, 6};
         System.out.print("Original array: ");
